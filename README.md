@@ -1,0 +1,1 @@
+# RialoHQ-funny-Og-checker

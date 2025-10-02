@@ -1,0 +1,27 @@
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto;color:#0b1021;background:radial-gradient(1200px 600px at 10% -10%,#e9f1ff,transparent),radial-gradient(1200px 600px at 110% 10%,#f2e9ff,transparent),#0b1021}
+.app{min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:24px;padding:32px}
+.header{width:100%;max-width:880px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;color:#fff;font-size:20px}
+.tag{color:#9fb7ff;background:#1b2440;border:1px solid #2a3761;border-radius:999px;padding:6px 12px;font-size:12px}
+.card{width:100%;max-width:880px;background:#111733;border:1px solid #263056;border-radius:16px;padding:24px 20px;color:#eaf0ff;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.progress{height:8px;background:#0f1430;border-radius:999px;overflow:hidden;margin-bottom:16px;border:1px solid #25305a}
+.progress-bar{height:100%;background:linear-gradient(90deg,#6aa2ff,#9b7dff);transition:width .3s ease}
+.hidden{display:none}
+.name-row{display:flex;gap:12px;margin-top:12px}
+input#name{flex:1;min-width:140px;background:#0f1533;border:1px solid #263056;border-radius:10px;color:#cfe0ff;padding:10px 12px}
+input#wallet{flex:1;min-width:220px;background:#0f1533;border:1px solid #263056;border-radius:10px;color:#cfe0ff;padding:10px 12px}
+.primary{background:linear-gradient(180deg,#6aa2ff,#4c86ff);border:none;color:white;padding:10px 16px;border-radius:10px;cursor:pointer;font-weight:600;box-shadow:0 6px 16px rgba(79,119,255,.35)}
+.primary:disabled{opacity:.5;cursor:not-allowed}
+.ghost{background:transparent;border:1px solid #33406d;color:#cfe0ff;padding:10px 16px;border-radius:10px;cursor:pointer}
+.meta{opacity:.8;margin-bottom:8px}
+#question{margin:8px 0 12px}
+.options{display:grid;grid-template-columns:1fr;gap:10px}
+.option{background:#0f1533;border:1px solid #2a3560;border-radius:10px;padding:12px;cursor:pointer;display:flex;gap:10px;color:#dbe6ff}
+.option:hover{border-color:#4e64b8}
+.option.selected{border-color:#6aa2ff;background:#121a3f}
+.feedback{margin-top:8px;padding:10px;border-radius:8px;border:1px solid #33406d;background:#0e1430}
+.footer{opacity:.6;color:#d0d9ff}
+.links{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0 18px}
+.links a{color:#8fb0ff;text-decoration:none;border-bottom:1px dashed #8fb0ff}
+.actions{margin-top:10px}
+@media(min-width:640px){.options{grid-template-columns:1fr 1fr}}
